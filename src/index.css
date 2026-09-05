@@ -1,0 +1,3 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+@layer base{body{@apply m-0 bg-zinc-950 text-zinc-100 antialiased}*{@apply box-border}button,input,textarea,select{font:inherit}}
+@layer utilities{.glass{@apply border border-white/10 bg-zinc-900/70 backdrop-blur-xl}.focus-ring{@apply focus:outline-none focus:ring-2 focus:ring-emerald-400/50}}
